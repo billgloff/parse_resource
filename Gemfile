@@ -6,15 +6,15 @@ group :development do
   # gem "rcov", ">= 0"
   gem "reek", "~> 1.2.8"
   gem "rest-client"
-  gem "activesupport"
-  gem "activemodel"
+  gem "activesupport", '4.0.0.rc1'
+  gem "activemodel", '4.0.0.rc1'
   gem "vcr"
   gem "webmock"
   gem "turn" # Better output for Test::Unit
 end
 
 gem "rest-client"
-gem "activesupport"
-gem "activemodel"
+gem "activesupport", '4.0.0.rc1'
+gem "activemodel", '4.0.0.rc1'
 gem "json"
 
